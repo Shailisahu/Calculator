@@ -1,0 +1,38 @@
+/* calculator.css */
+body{
+    background: radial-gradient(cyan,rgb(1, 43, 50));
+}
+h1{
+    font-family: monument;
+    margin-left: 43%;
+    margin-top: 6%;
+    text-transform: capitalize;
+}
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    /* background-color: lightseagreen; */
+  }
+  
+  .calculator input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .calculator .buttons button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 18px;
+    border-radius: 4px;
+    box-shadow: 1px;
+    font-family: gilroy;
+    font-weight: 700;
+  }
+  .calculator .buttons button:last-child{
+    width: 150px;
+  }
+  
